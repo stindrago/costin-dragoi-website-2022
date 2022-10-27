@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Calibre Super Condensed";
+    src: url("assets/fonts/CalibreSuperCondensed/CalibreSuperCondensed-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "Glory";
+    font-weight: 100 900;
+    src: url("assets/fonts/Glory/Glory-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+    font-family: "Glory";
+    font-style: italic;
+    font-weight: 100 900;
+    src: url("assets/fonts/Glory/Glory-Italic-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+    font-family: "RedHatMono";
+    font-style: normal;
+    font-weight: 100 900;
+    src: url("assets/fonts/RedHatMono/RedHatMono-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+    font-family: "RedHatMono";
+    font-style: italic;
+    font-weight: 100 900;
+    src: url("assets/fonts/RedHatMono/RedHatMono-Italic-VariableFont_wght.ttf");
+  }
+}

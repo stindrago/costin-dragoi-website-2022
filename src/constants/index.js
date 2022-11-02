@@ -1,6 +1,6 @@
 export const name = "Costin Dragoi";
 export const domain = "//dragoi.me";
-export const description = "Leggi, scrivi, disegna, ripeti.";
+export const description = "Certa è la strada, incerto è il successo.";
 export const copyright = "Copyright \u{00A9} 2022 Costin Dragoi";
 
 export const navLinks = [

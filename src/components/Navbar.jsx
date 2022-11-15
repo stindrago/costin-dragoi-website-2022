@@ -47,7 +47,7 @@ const Navbar = () => {
                       <a
                         key={obj.id}
                         className="rounded-lg bg-green px-5 py-2.5 text-lg font-semibold text-background shadow shadow-black transition hover:bg-opacity-70 hover:text-black"
-                        href={`#${obj.id}`}>
+                        href={`${obj.path}`}>
                         {obj.title}
                       </a>
                     ))}

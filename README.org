@@ -28,16 +28,31 @@ My personal website available at [[https://www.dragoi.me][www.dragoi.me]].
 
 ** Prerequisites
 
+Install requirements.
+
 - nodejs@18
 - npm
 
-** Run
+Download the project and install dependencies.
 
 #+begin_src shell
 git clone https://git.dragoi.me/costin/www.dragoi.me.git
 cd www.dragoi.me
 npm i
+#+end_src
+
+** Run development
+
+#+begin_src shell
 npm run dev
+#+end_src
+
+** Build from source
+
+Generate =public/=.
+
+#+begin_src shell
+npm run build
 #+end_src
 
 * [[./LICENSE][License]]

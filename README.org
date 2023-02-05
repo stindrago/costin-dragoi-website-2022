@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       9d141e33-ba26-4752-8c9f-862087bc619a
+:END:
+#+TITLE: www.dragoi.me
+#+AUTHOR: Costin Dragoi
+#+DATE: [2023-02-05 Sun]
+#+FILETAGS: project
+#+CATEGORY: private
+
+* About
+
+My personal website available at [[https://www.dragoi.me][www.dragoi.me]].
+
+#+name: Image Preview
+[[./resources/images/preview-1.png]]
+
+* Tools
+
+- [[https://vscodium.com][VSCodium]]
+- [[https://en.wikipedia.org/wiki/JavaScript][JavaScript]]
+- [[https://tailwindcss.com][TailwindCSS]]
+- [[https://reactjs.org][React]]
+- [[https://vitejs.dev][Vite]]
+- [[https://nodejs.org][NodeJS]]
+- [[https://www.npmjs.com][npm]]
+
+* Development
+
+** Prerequisites
+
+- nodejs@18
+- npm
+
+** Run
+
+#+begin_src shell
+git clone https://git.dragoi.me/costin/www.dragoi.me.git
+cd www.dragoi.me
+npm i
+npm run dev
+#+end_src
+
+* [[./LICENSE][License]]
+
+[[https://www.gnu.org/licenses/agpl-3.0.en.html][AGPL v3]].

@@ -1,9 +1,9 @@
-import cv from "../assets/documents/cv.pdf"
+import cv from "../assets/documents/cv.pdf";
 
 export const name = "Costin Dragoi";
 export const domain = "://dragoi.me";
 export const description = "Certa è la strada, incerto è il successo.";
-export const copyright = "Copyright \u{00A9} 2022 Costin Dragoi";
+export const copyright = "Copyright \u{00A9} 2023 Costin Dragoi";
 
 export const navLinks = [
   {

@@ -8,13 +8,7 @@ const Footer = () => {
         <p className="text-center text-sm font-semibold text-gray">
           {copyright}
         </p>
-        <div className="mx-4 aspect-square h-1 rounded-full bg-gray"></div>
-        <a
-          className="text-center text-sm font-semibold text-gray underline"
-          href="https://git.dragoi.me/costin/www.dragoi.me"
-          target="_blank">
-          Source Code
-        </a>
+        {/* <div className="mx-4 aspect-square h-1 rounded-full bg-gray"></div> */}
       </div>
     </section>
   );

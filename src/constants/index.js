@@ -1,5 +1,3 @@
-import cv from "../assets/documents/cv.pdf";
-
 export const name = "Costin Dragoi";
 export const domain = "://dragoi.me";
 export const description = "Certa è la strada, incerto è il successo.";
@@ -22,8 +20,8 @@ export const navLinks = [
 
 export const btnLinks = [
   {
-    id: "cv",
-    title: "Curriculum",
-    path: cv,
+    id: "novita",
+    title: "Nuovità",
+    path: "https://blog.dragoi.me",
   },
 ];
